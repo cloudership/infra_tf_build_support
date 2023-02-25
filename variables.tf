@@ -30,4 +30,6 @@ variable "service_repos" {
     service_envs = list(string),
     service_name = string,
   }))
+
+  default = {}
 }
