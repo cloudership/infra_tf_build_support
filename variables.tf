@@ -7,6 +7,10 @@ variable "env_name" {
   description = "This is the name of the environment where the ECR repos will live (e.g. `build`)"
 }
 
+variable "aws_region" {
+  type = string
+}
+
 variable "root_domain" {
   type = string
 }
